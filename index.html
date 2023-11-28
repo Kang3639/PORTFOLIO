@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/response.css">
+  <link rel="stylesheet" href="./js/fullPage.js-2.9.7/jquery.fullPage.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+  <!-- <script src="./script.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script> 
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script> -->
+  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>My Website - www.seungwookang99.me</title>
+
+  <style type="text/css">
+    .resize-observer[data-v-8859cc6c] {
+      position:absolute;
+      top:0;
+      left:0;
+      z-index:-1;
+      width:100%;
+      height:100%;
+      border:none;
+      background-color:transparent;
+      pointer-events:none;
+      display:block;
+      overflow:hidden;
+      opacity:0
+    }
+    .resize-observer[data-v-8859cc6c] object {
+      display:block;
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      overflow:hidden;
+      pointer-events:none;
+      z-index:-1
+    }
+  </style>
+  <style type="text/css"> x-vue-echarts {
+    display:block;
+    width:100%;
+    height:100%
+  }
+  </style>
+</head>
+<body class="dark-mode fp-viewing-firstPage" ap-style="" style="overflow: hidden; height: 100%;">
+  <!---- intro ---->
+    <div class="intro move">
+        <div class="intro-bar">
+            <div class="intro-bar-inner"></div>
+        </div>
+    </div>
+  <div class="cursor hover" style="transform: translate(40px, 369px); opacity: 1;"></div>
+      <!-- <div class="cursor-pointer hover" style="transform: translate(40px, 369px); opacity: 1; background-color: rgba(255, 252, 243, 0.9);"></div> -->
+      <!---- header ---->
+      <header class="header">
+          <div class="mode-btn">
+              <button type="button" onclick="darkmode()"></button>
+          </div>
+          <div class="header-menu-wrap">
+              <button type="button" class="menu-btn">
+                  <span class="menu-line menu-line_01"></span>
+                  <span class="menu-line menu-line_02"></span>
+                  <span class="menu-line menu-line_03"></span>
+              </button>
+          </div>
+          <nav class="header-gnb">
+              <ul>
+                  <li class="header-gnb-item">
+                      <a class="header-menu-item" href="#firstPage">Home</a>
+                  </li>
+                  <!-- <li class="header-gnb-item">
+                      <a class="header-menu-item" href="#2rdpage">About</a>
+                  </li> -->
+                  <li class="header-gnb-item">
+                      <a class="header-menu-item" href="#3rdpage">T2L 홈페이지</a>
+                  </li>
+                  <li class="header-gnb-item">
+                    <a class="header-menu-item" href="#4rdpage">Dr P&K 홈페이지(쇼핑몰)</a>
+                  </li>
+                  <li class="header-gnb-item">
+                      <a class="header-menu-item" href="#5rdpage">왓챠</a>
+                  </li>
+                  <!-- <li class="header-gnb-item">
+                      <a class="header-menu-item" href="#6rdpage">왓챠</a>
+                  </li> -->
+              </ul>
+              <div class="profile-wrap">
+                  <div class="profile-title">
+                      <ul>
+                          <li class="name">강승우</li>
+                          <li>1999.09.25</li>
+                          <li></li>
+                          <li>tmddn3636@naver.com</li>
+                      </ul>
+                  </div>
+                  <div class="profile-cont">
+                      <ul>                       
+                        <li></li>
+                          <li>경상남도 양산시</li>
+                          <li>동의대학교 컴퓨터공학 전공</li>
+                          <li>개발자 경력 4개월차</li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+      </header>
+      <main id="fullpage" role="main" class="fullpage-wrapper" style="height: 100%; position: relative; touch-action: none; transform: translate3d(0px, 0px, 0px); transition: all 700ms ease 0s;">
+          <!---- section1 ---->
+        <section class="section main-home fp-section fp-table active fp-completely" id="section01" data-anchor="firstPage" style="height: 844px;">
+            <div class="fp-tableCell" style="height: 844px;">
+              <div class="main_headwrap" style="width: 450px; height: 450px; opacity: 1;">
+                 <h3 class="main_headline" style="opacity: 1; text-align: center;"><span>KANG SEUNG WOO portfolio</span></h3>
+              </div>
+            </div>
+        </section>
+        <!---- section2 ---->
+        <section class="section main-about fp-section fp-table" id="section02" data-anchor="2rdpage" style="height: 844px;">
+            <div class="fp-tableCell" style="height: 844px;">
+                <div class="about-inner">
+                    <div class="about-img" style="">
+                        <img src="./image/profile.jpg" alt="이용호이미지">
+                    </div>
+                    <div class="info-wrap">
+                        <div class="info-title">
+                            <strong>
+                                <span>성실함</span>을 바탕으로 <br>
+                                <span>발전</span>하는 소프트웨어 엔지니어
+                            </strong>
+                        </div>
+                        <div class="info-cont">
+                            <p>
+                            안녕하세요 신입 개발자 강승우입니다. 
+                            덴소코리아의 가치와 목표에 공감하며, 환경보호, 교통안전, 에너지 절감, 법규 준수, 지역사회와의 
+                            공생에 주력하는 덴소코리아와 함께하고 싶습니다. 
+                            지속가능한 발전을 추구하는 덴소코리아와 함께하여, 
+                            사회적 책임을 다하며 다양성을 존중하는 데에 기여하고 싶습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <!---- section3 ---->
+          <section class="section main-work work_3 fp-section fp-table" id="section03" data-anchor="3rdpage" style="height: 844px;">
+            <div class="fp-tableCell" style="height: 844px;">
+              <div class="slide-item">
+                  <div class="slide-item-inner">
+                      <div class="slide-cover">
+                          <img src="./image/linetracer_img.jpg" alt="slide01">
+                      </div>
+                      <div class="slide-info">
+                        <b class="slide-num">01</b>
+                        <div class="slide-txt">
+                            <h3 class="slide-title">라인트레이서</h3>
+                            <p class="slide-page-txt">
+                                밝은 표면에 표시된 검은 선과 <br/>흰 면을 감지하여 라인을 인식하는
+                                라인트레이서의 전자 회로 구성, 파이썬 코드를 프로그래밍했습니다.
+                            </p>
+                            <p class="slide-page-info_1">역할 : 팀장</p>
+                            <p class="slide-page-info_2">아두이노 보드, IR센서</p>
+                            <p class="slide-page-info_2">동의대학교</p>
+                        </div>
+                        <div class="slide-view-btn_wrap">
+                            <a class="slide-view-btn" href="http://www.t2l.co.kr/" target="_blank">
+                                <span>View more</span>
+                            </a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <!---- section4 ---->
+        <section class="section main-work work_4 fp-section fp-table" id="section04" data-anchor="4rdPage" style="height: 844px;">
+            <div class="fp-tableCell" style="height: 844px;">
+                <div class="slide-item">
+                    <div class="slide-item-inner">
+                        <div class="slide-cover">
+                            <img src="./image/dr_slide.png" alt="slide02">
+                        </div>
+                        <div class="slide-info">
+                            <b class="slide-num">02</b>
+                            <div class="slide-txt">
+                                <h3 class="slide-title">Dr P&K 홈페이지<br/>(쇼핑몰)</h3>
+                                <p class="slide-page-txt">
+                                    Dr P&K의 제품들을 사용자 및 판매자가 쉽게 알아볼 수 있도록 제작 하였습니다.
+                                    일반형(pc버전)으로 먼저 제작하게 되었으며, 사용자가 홈페이지에 접속한 기기에 따라 
+                                    모바일(반응형)으로도 접속 가능하도록 제작 하였고 
+                                    쇼핑몰 관리자가 전체 인원 및 CS업무를 도울 수 있는 관리자 폼 또한 제작 하였습니다.
+                                </p>
+                                <p class="slide-page-info_1">pc,모버일,관리자 페이지 전체 참여</p>
+                                <p class="slide-page-info_2">AJAX, SP작업, 데이터바인딩, 퍼블리싱 작업</p>
+                                <p class="slide-page-info_2">티투엘 주식회사</p>
+                            </div>
+                            <div class="slide-view-btn_wrap">
+                                <a class="slide-view-btn" href="https://www.dr-pkcare.com/" target="_blank"><span>PC View</span></a>
+                                <a class="slide-view-btn" href="https://www.dr-pkcare.com/Source/m/m_main.aspx" target="_blank"><span>MOVILE View</span></a>
+                                <a class="slide-view-btn" href="https://admin.dr-pkcare.com/" target="_blank"><span>admin View</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---- section5 ---->
+        <section class="section main-work work_5 fp-section fp-table" id="section05" data-anchor="5rdPage" style="height: 844px;">
+            <div class="fp-tableCell" style="height: 844px;">
+                <div class="slide-item">
+                    <div class="slide-item-inner">
+                        <div class="slide-cover">
+                            <img src="./image/watcha_slide.jpg" alt="slide05">
+                        </div>
+                        <div class="slide-info">
+                            <b class="slide-num">03</b>
+                            <div class="slide-txt">
+                                <h3 class="slide-title">왓챠 웹페이지</h3>
+                                <p class="slide-page-txt">
+                                    왓챠의 취향 분석 기능을 이용해 사용자가 편리하게 서비스를 이용할 수 있도록 상단에 위치 시켰고, 자주 사용하는 영화를 탐색 기능에 더 간편하게 접근할 수 있도록 리뉴얼했습니다.
+                                </p>
+                                <p class="slide-page-info_1">메인, 서브(회사 소개 페이지)</p>
+                                <p class="slide-page-info_2">반응형 HTML CSS5 JQUERY</p>
+                            </div>
+                            <div class="slide-view-btn_wrap">
+                                <a class="slide-view-btn" href="http://www.t2l.co.kr/" target="_blank">
+                                    <span>View more</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---- section6 ---->
+        <!-- <section class="section main-work work_6 fp-section fp-table" id="section06" data-anchor="6rdpage" style="height: 844px;">
+            <div class="fp-tableCell" style="height: 844px;">
+              <div class="slide-item">
+                  <div class="slide-item-inner">
+                      <div class="slide-cover">
+                          <img src="./image/watcha_slide.jpg" alt="slide06">
+                      </div>
+                      <div class="slide-info">
+                          <b class="slide-num">04</b>
+                          <div class="slide-txt">
+                              <h3 class="slide-title">왓챠 웹페이지</h3>
+                              <p class="slide-page-txt">
+                                  왓챠의 취향 분석 기능을 이용해 사용자가 편리하게 서비스를 이용할 수 있도록 상단에 위치 시켰고, 자주 사용하는 영화를 탐색 기능에 더 간편하게 접근할 수 있도록 리뉴얼했습니다.
+                              </p>
+                              <p class="slide-page-info_1">메인 페이지</p>
+                              <p class="slide-page-info_2">반응형 HTML CSS5 JQUERY</p>
+                              <p class="slide-page-info_2">디자인 : 외부 인원 작업</p>
+                          </div>
+                          <div class="slide-view-btn_wrap">
+                            <a class="slide-view-btn" href="watcha/index.html" target="_blank">View more</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section> -->
+    </main>
+    <script type="text/javascript" src="./js/fullPage.js-2.9.7/jquery.fullPage.js"></script> 
+    <script>
+        //fullpage.js
+        $(document).ready(function(){
+            $('#fullpage').fullpage({
+                "anchors": ['firstPage', '2rdpage', '3rdpage', '4rdpage', '5rdpage'],
+                'afterLoad': function(anchorLink, index) {
+                    if ( index == 1 ) {
+                        $(".about-img, .info-title, .info-cont, .slide-item").removeClass("show")
+                        $(".main_headwrap").css({
+                            "width": "450px",
+                            "height": "450px"
+                        })
+                        $(".main_headline").animate({
+                            opacity: 1
+                        },100)
+                    }
+                    if ( index == 2) {
+                        $(".about-img").addClass("show",1100,"easeOutBack")
+                        setTimeout(function(){
+                            $(".info-title, .info-cont").addClass("show",900,"easeOutBack", function(){
+                            // $(".info-cont").delay(400).addClass("show",800,"easeOutBack")
+                            })
+                        },700)
+                    }
+                    if ( index == 3) $(".work_3 .slide-item").addClass("show",700,"easeOutBack")
+                    if ( index == 4) $(".work_4 .slide-item").addClass("show",700,"easeOutBack")
+                    if ( index == 5) $(".work_5 .slide-item").addClass("show",700,"easeOutBack")
+                    // if ( index == 6) $(".work_6 .slide-item").addClass("show",700,"easeOutBack")
+                },
+                "onLeave": function (index, nextIndex, direction) {
+                    if ( index == 1 && direction == "down") {
+                        $(".main_headwrap").css({
+                            "width": "4000px",
+                            "height": "4000px"
+                        })
+                        $(".main_headline").animate({
+                            opacity: 0
+                        },100)
+                    }
+                }
+            })   
+        })
+
+        $(window).on('load',function(){
+        setInterval(function(){
+            $(".intro").addClass("move",1000)
+        },3000);
+        })
+
+        $(".main_headwrap").delay(3800).animate({ opacity: 1},
+        function(){
+            $(".main_headline").delay(800).animate({ opacity: 1})
+        }      
+        )
+
+        $(window).resize(function(){
+        if ( window.innerWidth < 780 ) {
+            $(".main_headwrap").css({
+                "width": "350px",
+                "height": "350px"
+            })
+        } else {
+            $(".main_headwrap").css({
+                "width": "450px",
+                "height": "450px"
+            })
+        }
+        })
+
+        // 다크모드
+        function darkmode() {
+        var bodySelector = document.body;
+        bodySelector.classList.toggle("dark-mode");
+        }
+
+        //마우스 포인터
+        $(window).on('load',function(){
+        setInterval(function(){
+            $(".cursor").css({
+                "opacity": 1
+            })
+            
+            $(".cursor-pointer").css({
+                "opacity": 1
+            })
+        },5000);
+        })
+
+        $(window).mousemove(function(e){
+        var agent = navigator.userAgent.toLowerCase();
+        var cursorX = e.pageX - 20;
+        var cursorY = e.pageY - 20;
+        
+        if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1) ) { 
+            $(".cursor").css({
+                "top": cursorY,
+                "left": cursorX,
+            });
+            $(".cursor-pointer").css({
+                "top": e.pageY,
+                "left": e.pageX,
+            });
+            
+            $("button, a").hover(function(){
+                $(".cursor").css("backgroundColor","rgba(255,252,243,0.5)");
+            },function(){
+                $(".cursor").css("backgroundColor","transparent");
+            });
+            
+        } else {
+            $(".cursor, .cursor-pointer").css({
+                "transform": "translate("+e.pageX+"px,"+e.pageY+"px)"
+            });
+            
+            $("button, a").hover(function(){
+                $(".cursor-pointer").css("backgroundColor","rgba(255,252,243,0.9)");
+                $(".cursor, .cursor-pointer").addClass("hover");
+            },function(){
+                $(".cursor-pointer").css("mixBlendMode","none");
+                $(".cursor, .cursor-pointer").removeClass("hover");
+            });
+        }
+        })
+
+
+        //메뉴 효과
+        $(document).mouseup(function(e){
+            if ( $(".header-gnb").has(e.target).length === 0 ) {
+                $(".menu-btn, .header-gnb, .profile-wrap").removeClass("active")
+            }
+            
+            $(".header-menu-wrap .menu-btn").click(function(){
+                $(".menu-btn, .header-gnb, .profile-wrap").toggleClass("active")
+            })
+            })
+
+            $(".header-gnb-item").click(function(){
+                console.log("3dddd");
+            $(".menu-btn, .header-gnb, .profile-wrap").removeClass("active");
+            })
+
+            $(".header-gnb-item").children("a").hover(function(){
+            $(this).siblings("p").css({
+                transform: "translateX(0px)",
+                opacity: 1
+            })
+            },function(){
+            $(this).siblings("p").css({
+                transform: "translateX(10px)",
+                opacity: 0
+            })
+        })
+    </script>
+  
+<div class="ap-ext ap-ext-taobao_search_by_image"><div class="ap-base ap-base--ltr ap-theme--dark skiptranslate"><div><div class="ap-sbi"><!----><!----><!----><div class="ap-sbi-aside"><!----><div class="ap-sbi-aside-btn-minimize" style="display: none;"><img src="" class="ap-sbi-img-thumb"><i class="ap-sbi-aside-btn-minimize__icon ap-icon-chevron-right"></i></div><!----></div></div><div class="ap-sbi-compare-bar-wrapper"><div class="ap-sbi-compare-bar__inner"><div class="ap-sbi-compare-bar-compared-list-wrapper"><div class="ap-sbi-compare-bar-next ap-sbi-compare-bar-next__prev ap-icon-chevron-left ap-is-disabled"></div><div class="ap-sbi-compare-bar-compared-list-container"><div class="ap-sbi-compare-bar-compared-list" style="width: 1000%; height: 100%; transform: translate3d(0px, 0px, 0px);"></div><!----></div><div class="ap-sbi-compare-bar-next ap-sbi-compare-bar-next__next ap-icon-chevron-right ap-is-disabled"></div></div><div class="ap-sbi-compare-bar-ctrls ap-sbi-compare-bar-ctrls__compare ap-is-disabled"> 비교 (0/20) </div><div class="ap-sbi-compare-bar-ctrls ap-sbi-compare-bar-ctrls__clear ap-is-disabled"> 모두 지우기 </div><div title="닫기" class="ap-sbi-compare-bar-ctrls ap-sbi-compare-bar-ctrls__close ap-icon-close"></div></div></div><!----></div><!----><div></div><!----><!----><div></div><div></div><!----><!----></div></div></body>
+</html>
