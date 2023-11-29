@@ -2,7 +2,6 @@
 
 body {
     font-family: "Montserrat", "noto sans kr", sans-serif;
-    color: #fffcf3;
     overflow-x: hidden;
     transition: .2s;
 }
@@ -498,6 +497,8 @@ img {
     transition: all .7s;
     overflow: hidden;
     opacity: 0;
+    border-radius: 10px;
+    border:1px solid #dcdde1
 }
 
 .main-work .slide-item.show {
@@ -819,11 +820,17 @@ img {
 
 /** dark-mode **/
 .dark-mode {
-    color: #fffcf3;
+    color:black;
+    box-shadow:  0 0 7px #00000012;
 }
-
+.fp-tableCell{
+    background-color: white;
+}
+.slide-item{
+    box-shadow: 12px 18px 20px #00000012;
+}
 .dark-mode .mode-btn {
-    background-color: #2a5298;
+    background-color: #dc0032;
 }
 
 .dark-mode .mode-btn button {
@@ -831,11 +838,11 @@ img {
 }
 
 .dark-mode .main-home {
-    background: linear-gradient(to bottom, #a9a9a9 10%, #dcdde1 80%, #fff);
+    background: linear-gradient(to bottom, white 10%, #dcdde1 80%, #fff);
 }
 
 .dark-mode .main_headwrap {
-    background: linear-gradient(to bottom, #0c1e31 30%, #050910);
+    background: linear-gradient(to bottom, #dc0032 30%, white);
 }
 
 .dark-mode .main-work {
@@ -844,11 +851,11 @@ img {
 }
 
 .dark-mode .slide-info .slide-num {
-    color: #1a68b9;
+    color: #dc0032;
 }
 
 .dark-mode .info-title strong span {
-    color: #2c6bd9;
+    color: #dc0032;
 }
 
 .a {
