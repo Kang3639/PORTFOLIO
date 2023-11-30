@@ -944,3 +944,7 @@ img {
 .hidden{
     display : none !important;
 }
+.final_coment{
+    font-size: 50px;
+    font-weight: 700;
+}
