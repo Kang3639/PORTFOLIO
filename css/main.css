@@ -948,3 +948,11 @@ img {
     font-size: 50px;
     font-weight: 700;
 }
+.slide_wrap {
+    width: 45%;
+    border: 1px solid;
+    overflow: hidden;
+}
+.swiper-pagination{
+    position: relative;
+}
