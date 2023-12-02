@@ -615,7 +615,6 @@ img {
 }
 
 .slide-txt .slide-page-info_2 { 
-    padding-top: 5%; 
     font-size: 1.4rem;
 } 
 
@@ -623,8 +622,6 @@ img {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-top: 5%;
-
 }
 
 .slide-view-btn {
@@ -956,3 +953,21 @@ img {
 .swiper-pagination{
     position: relative !important;
 }
+.slide-btn{
+    min-height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+@media (max-width: 800px) {
+    .slide-btn{
+        min-height: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+    
+  }
