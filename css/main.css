@@ -954,5 +954,5 @@ img {
     overflow: hidden;
 }
 .swiper-pagination{
-    position: relative;
+    position: relative !important;
 }
